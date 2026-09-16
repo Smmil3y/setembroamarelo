@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Florescer — Setembro Amarelo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Playfair+Display:wght@500;600;700&family=Special+Elite&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Fita decorativa -->
+    <div class="top-tape"></div>
+
+    <!-- Navegação -->
+    <header class="navbar">
+
+        <a href="#" class="logo">
+            <span>🌻</span>
+            Florescer
+        </a>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#respirar">Respirar</a>
+            <a href="#humor">Humor</a>
+            <a href="#ajuda">Ajuda</a>
+        </nav>
+
+    </header>
+
+
+    <main id="inicio">
+
+        <!-- HERO -->
+        <section class="hero">
+
+            <div class="hero-paper">
+
+                <span class="sticker sticker-star">✦</span>
+                <span class="sticker sticker-flower">🌼</span>
+
+                <p class="eyebrow">
+                    SETEMBRO AMARELO • VALORIZAÇÃO DA VIDA
+                </p>
+
+                <h1>
+                    Você não precisa
+                    <span>florescer</span>
+                    sozinho.
+                </h1>
+
+                <p class="hero-text">
+                    Um pequeno espaço para respirar, desacelerar,
+                    reconhecer seus sentimentos e lembrar que pedir
+                    ajuda também é uma forma de cuidado.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="tel:188" class="btn btn-yellow">
+                        ☎ Ligar para o CVV — 188
+                    </a>
+
+                    <a href="#respirar" class="btn btn-outline">
+                        Quero respirar
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-collage">
+
+                <div class="photo-card">
+                    <div class="fake-photo">
+                        <span>🌻</span>
+                    </div>
+
+                    <p>
+                        "Devagar também<br>
+                        é caminho."
+                    </p>
+                </div>
+
+                <div class="paper-note">
+                    <span>lembrete</span>
+                    <strong>
+                        cuide de você
+                        com a mesma
+                        delicadeza que
+                        cuidaria de alguém
+                        que ama.
+                    </strong>
+                </div>
+
+                <div class="flower-decoration">
+                    🌻
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FRASE -->
+        <section class="quote-section">
+
+            <div class="quote-mark">“</div>
+
+            <blockquote id="quote">
+                Algumas flores precisam de mais tempo para abrir.
+            </blockquote>
+
+            <button id="newQuote" class="small-button">
+                outra mensagem ✦
+            </button>
+
+        </section>
+
+
+        <!-- RESPIRAÇÃO -->
+        <section id="respirar" class="section breathing-section">
+
+            <div class="section-heading">
+                <p class="eyebrow">01 — PAUSA</p>
+
+                <h2>
+                    Vamos respirar
+                    <span>juntos?</span>
+                </h2>
+
+                <p>
+                    Encontre uma posição confortável. Inspire lentamente
+                    e acompanhe o círculo. Não existe pressa.
+                </p>
+            </div>
+
+
+            <div class="breathing-card">
+
+                <div class="breathing-flower">
+                    <div class="breathing-circle">
+                        <span id="breathingText">COMEÇAR</span>
+                    </div>
+                </div>
+
+                <div class="breathing-info">
+
+                    <h3>Respiração tranquila</h3>
+
+                    <p id="breathingInstruction">
+                        Clique no botão para iniciar uma pequena
+                        prática de respiração.
+                    </p>
+
+                    <div class="breathing-count">
+                        <span id="breathingCounter">—</span>
+                    </div>
+
+                    <button id="breathingButton" class="btn btn-brown">
+                        Começar exercício
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- HUMOR -->
+        <section id="humor" class="section mood-section">
+
+            <div class="torn-paper">
+
+                <div class="section-heading centered">
+
+                    <p class="eyebrow">02 — COMO VOCÊ ESTÁ?</p>
+
+                    <h2>
+                        Deixe seu
+                        <span>humor aqui.</span>
+                    </h2>
+
+                    <p>
+                        Não existe resposta certa. Apenas escolha
+                        o que combina com você hoje.
+                    </p>
+
+                </div>
+
+
+                <div class="mood-grid">
+
+                    <button class="mood" data-mood="Muito bem">
+                        <span>🌻</span>
+                        <small>Muito bem</small>
+                    </button>
+
+                    <button class="mood" data-mood="Bem">
+                        <span>☀️</span>
+                        <small>Bem</small>
+                    </button>
+
+                    <button class="mood" data-mood="Neutro">
+                        <span>🌼</span>
+                        <small>Neutro</small>
+                    </button>
+
+                    <button class="mood" data-mood="Cansado(a)">
+                        <span>🍂</span>
+                        <small>Cansado(a)</small>
+                    </button>
+
+                    <button class="mood" data-mood="Triste">
+                        <span>🌧️</span>
+                        <small>Triste</small>
+                    </button>
+
+                </div>
+
+                <div id="moodResult" class="mood-result">
+                    Escolha uma flor acima.
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- AJUDA -->
+        <section id="ajuda" class="section help-section">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">03 — VOCÊ NÃO ESTÁ SOZINHO</p>
+
+                <h2>
+                    Onde encontrar
+                    <span>ajuda?</span>
+                </h2>
+
+                <p>
+                    Procurar apoio é um ato de cuidado. Existem diferentes
+                    lugares e profissionais que podem ajudar.
+                </p>
+
+            </div>
+
+
+            <div class="help-grid">
+
+                <article class="help-card">
+
+                    <span class="card-number">01</span>
+
+                    <div class="card-icon">☎</div>
+
+                    <h3>CVV — 188</h3>
+
+                    <p>
+                        O Centro de Valorização da Vida oferece apoio
+                        emocional de forma gratuita e sigilosa.
+                    </p>
+
+                    <a href="tel:188">
+                        Ligar agora →
+                    </a>
+
+                </article>
+
+
+                <article class="help-card">
+
+                    <span class="card-number">02</span>
+
+                    <div class="card-icon">🏥</div>
+
+                    <h3>CAPS</h3>
+
+                    <p>
+                        Os Centros de Atenção Psicossocial fazem parte
+                        da rede pública de atenção à saúde mental.
+                    </p>
+
+                    <a href="https://www.gov.br/saude/pt-br/composicao/saes/desmad/raps/caps"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Saiba mais →
+                    </a>
+
+                </article>
+
+
+                <article class="help-card">
+
+                    <span class="card-number">03</span>
+
+                    <div class="card-icon">🩺</div>
+
+                    <h3>Unidade de Saúde</h3>
+
+                    <p>
+                        Uma Unidade Básica de Saúde pode orientar sobre
+                        os serviços disponíveis na sua região.
+                    </p>
+
+                    <a href="#ajuda">
+                        Procurar atendimento →
+                    </a>
+
+                </article>
+
+
+                <article class="help-card">
+
+                    <span class="card-number">04</span>
+
+                    <div class="card-icon">🎓</div>
+
+                    <h3>Clínica-Escola</h3>
+
+                    <p>
+                        Algumas instituições de ensino oferecem
+                        atendimento psicológico supervisionado.
+                    </p>
+
+                    <a href="#ajuda">
+                        Conheça essa opção →
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CARTA -->
+        <section class="letter-section">
+
+            <div class="envelope-decoration">✉</div>
+
+            <div class="letter">
+
+                <p class="handwriting">
+                    uma pequena carta para você
+                </p>
+
+                <h2>
+                    Querido você,
+                </h2>
+
+                <p>
+                    talvez hoje esteja difícil enxergar além do que
+                    está acontecendo agora. Tudo bem. Você não precisa
+                    resolver a vida inteira hoje.
+                </p>
+
+                <p>
+                    Faça uma pausa. Tome água. Respire. Converse com
+                    alguém de confiança. E, quando precisar, procure
+                    ajuda profissional.
+                </p>
+
+                <p>
+                    Sua história não precisa terminar no capítulo
+                    mais difícil.
+                </p>
+
+                <div class="signature">
+                    com carinho,<br>
+                    <strong>Florescer 🌻</strong>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-flower">
+            🌻
+        </div>
+
+        <h2>Florescer</h2>
+
+        <p>
+            Um projeto acadêmico de conscientização e valorização da vida.
+        </p>
+
+        <div class="footer-line"></div>
+
+        <p class="legal">
+            ⚠️ Esta aplicação é um projeto acadêmico e não substitui
+            atendimento psicológico ou médico profissional.
+        </p>
+
+        <p class="emergency">
+            Em uma situação de emergência ou risco imediato,
+            procure um serviço de emergência ou atendimento de saúde.
+            Para apoio emocional, você também pode ligar gratuitamente
+            para o CVV pelo <strong>188</strong>.
+        </p>
+
+        <small>
+            Feito com cuidado • Setembro Amarelo
+        </small>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
